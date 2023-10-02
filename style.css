@@ -1,0 +1,167 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration:none;
+    
+}
+
+.interface{
+    max-width: 1280px;
+    margin: auto;
+    padding: 25px 1%;
+}
+
+/* Estilo cabeçalho */
+ header > .especialidades{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+/* Estilo cabeçalho */
+
+header a{
+    color: #000000d3;
+    display: inline-block;
+    transition: 0.2s;
+    
+}
+
+header nav.menu a:hover{
+    color:#a7c957;
+    transform: scale(1.08);
+    
+}
+
+header nav ul{
+     list-style-type:none;
+     
+    
+}
+
+header nav.menu ul li{
+    display: inline-block;
+    padding:8px 40px;
+    font-size: 20px;
+    
+}
+
+.name-destaque {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .name-destaque h1 {
+    position: absolute;
+    top: 200px;
+    right: 15px;
+    left: 15px;
+    font-size: 40px;
+    color:#000000e5;
+    font-weight: 700;
+    text-shadow:-10px -10x -10px black;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-bottom: #ffffff solid;
+  }
+
+  .name-destaque img{
+    height: 30em;
+    width: 93.4em;
+  }
+
+  .flex{
+    margin: 0 0;
+    display: flex;
+    justify-content: space-around;
+        
+}
+
+/*Estilo tópicos*/
+section.destaque{
+    margin-bottom: 48px;
+    padding: 40px 4%;
+}
+
+section.destaque .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:20px;
+    flex-wrap: wrap;
+} 
+
+#inicio{
+    background-color: #cdc7c344;
+}
+
+.topico1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.txt-sobre{
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    margin-top: 32px;
+    border-bottom: 2px solid #ffffd9;
+    background-color: #eee;    
+    
+}
+
+.sobre-paragrafo {
+    font-size: 20px;
+    margin: 20px 16px;
+    text-align: justify;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #cdc7c3;
+    padding: 12px;
+    border-radius: 6px;
+    margin-left: auto;
+    width: fit-content;
+    text-align: center;
+    color: #000000d3;
+}
+
+.image2{
+    height: 400px;
+    width: 800px;
+}
+
+.biografia{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.bio-autora{
+    display: flex;
+    justify-content: space-between;
+    
+} 
+
+.foto {
+    height: 400px;
+    width: 800px;    
+    border-radius: 15% 15% 20%;
+}
+
+    
+/* rodapé*/
+.footer-container{
+    color: #ffffd9;
+    background-color: #cdc7c3;
+    padding: 10px;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 20px;
+}
+
